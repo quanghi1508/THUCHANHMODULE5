@@ -1,0 +1,346 @@
+{
+  "category": [
+    {
+      "id": "1",
+      "name": "Thực phẩm chức năng",
+      "description": "Bổ sung Vitamin"
+    },
+    {
+      "id": "2",
+      "name": "Thiết bị y tế",
+      "description": "Máy đo huyết áp, nhiệt kế, ống nghe"
+    },
+    {
+      "id": "3",
+      "name": "Dược phẩm",
+      "description": "Thuốc điều trị và kháng sinh"
+    },
+    {
+      "id": "4",
+      "name": "Thuốc kháng sinh",
+      "description": "Thuốc kháng sinh dùng để điều trị các loại nhiễm trùng"
+    },
+    {
+      "id": "5",
+      "name": "Thuốc giảm đau",
+      "description": "Giảm đau và kháng viêm"
+    },
+    {
+      "id": "6",
+      "name": "Thuốc ho và cảm cúm",
+      "description": "Điều trị triệu chứng ho và cảm cúm"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin và khoáng chất",
+      "description": "Bổ sung vitamin C, D, và các khoáng chất"
+    },
+    {
+      "id": "8",
+      "name": "Dung dịch vệ sinh",
+      "description": "Dung dịch vệ sinh cá nhân và sát khuẩn"
+    },
+    {
+      "id": "9",
+      "name": "Sản phẩm chăm sóc da",
+      "description": "Kem dưỡng da, chống nắng và sản phẩm điều trị mụn"
+    },
+    {
+      "id": "10",
+      "name": "Chăm sóc mẹ và bé",
+      "description": "Sữa, tã và các sản phẩm cho mẹ và bé"
+    },
+    {
+      "id": "11",
+      "name": "Thực phẩm dinh dưỡng",
+      "description": "Sữa và các thực phẩm bổ sung dinh dưỡng"
+    },
+    {
+      "id": "12",
+      "name": "Thiết bị hỗ trợ sức khỏe",
+      "description": "Máy trợ thính, kính mắt và gậy chống"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "code": "PROD-0001",
+      "name": "Blackmores Omega Double High Strength Fish Oil",
+      "description": "Bổ sung Omega-3 cho sức khỏe tim mạch.",
+      "category": {
+        "id": "1",
+        "name": "Thực phẩm chức năng",
+        "description": "Bổ sung Vitamin"
+      },
+      "price": "598000",
+      "quantity": "1000",
+      "date": "24/01/2022"
+    },
+    {
+      "id": "2",
+      "code": "PROD-0002",
+      "name": "Blackmores CoQ10 150mg",
+      "description": "Viên uống hỗ trợ sức khỏe tim mạch.",
+      "category": {
+        "id": "1",
+        "name": "Thực phẩm chức năng",
+        "description": "Bổ sung Vitamin"
+      },
+      "price": "513000",
+      "quantity": "100",
+      "date": "15/10/2022"
+    },
+    {
+      "id": "3",
+      "code": "PROD-0003",
+      "name": "Máy đo huyết áp bắp tay Microlife B3 Basic",
+      "description": "Thiết bị đo huyết áp tự động.",
+      "category": {
+        "id": "2",
+        "name": "Thiết bị y tế",
+        "description": "Máy đo huyết áp, nhiệt kế, ống nghe"
+      },
+      "price": "1299000",
+      "quantity": "100",
+      "date": "01/12/2022"
+    },
+    {
+      "id": "4",
+      "code": "PROD-0004",
+      "name": "Thuốc kháng sinh Amoxicillin 500mg",
+      "description": "Thuốc điều trị nhiễm trùng do vi khuẩn.",
+      "category": {
+        "id": "4",
+        "name": "Thuốc kháng sinh",
+        "description": "Thuốc kháng sinh dùng để điều trị các loại nhiễm trùng"
+      },
+      "price": "45000",
+      "quantity": "500",
+      "date": "05/07/2022"
+    },
+    {
+      "id": "5",
+      "code": "PROD-0005",
+      "name": "Paracetamol 500mg",
+      "description": "Thuốc giảm đau và hạ sốt.",
+      "category": {
+        "id": "5",
+        "name": "Thuốc giảm đau",
+        "description": "Giảm đau và kháng viêm"
+      },
+      "price": "30000",
+      "quantity": "2000",
+      "date": "12/06/2022"
+    },
+    {
+      "id": "6",
+      "code": "PROD-0006",
+      "name": "Vitamin C 500mg Kirkland",
+      "description": "Bổ sung Vitamin C tăng cường đề kháng.",
+      "category": {
+        "id": "7",
+        "name": "Vitamin và khoáng chất",
+        "description": "Bổ sung vitamin C, D, và các khoáng chất"
+      },
+      "price": "280000",
+      "quantity": "300",
+      "date": "20/07/2022"
+    },
+    {
+      "id": "7",
+      "code": "PROD-0007",
+      "name": "Máy đo đường huyết Accu-Chek Active",
+      "description": "Thiết bị đo đường huyết nhanh và chính xác.",
+      "category": {
+        "id": "2",
+        "name": "Thiết bị y tế",
+        "description": "Máy đo huyết áp, nhiệt kế, ống nghe"
+      },
+      "price": "950000",
+      "quantity": "150",
+      "date": "15/09/2022"
+    },
+    {
+      "id": "8",
+      "code": "PROD-0008",
+      "name": "Thuốc ho Prospan",
+      "description": "Điều trị triệu chứng ho và đau họng.",
+      "category": {
+        "id": "6",
+        "name": "Thuốc ho và cảm cúm",
+        "description": "Điều trị triệu chứng ho và cảm cúm"
+      },
+      "price": "120000",
+      "quantity": "600",
+      "date": "09/08/2022"
+    },
+    {
+      "id": "9",
+      "code": "PROD-0009",
+      "name": "Dung dịch sát khuẩn Betadine",
+      "description": "Dung dịch vệ sinh sát khuẩn da.",
+      "category": {
+        "id": "8",
+        "name": "Dung dịch vệ sinh",
+        "description": "Dung dịch vệ sinh cá nhân và sát khuẩn"
+      },
+      "price": "75000",
+      "quantity": "300",
+      "date": "01/11/2022"
+    },
+    {
+      "id": "10",
+      "code": "PROD-0010",
+      "name": "Kem dưỡng da Cetaphil Moisturizing Cream",
+      "description": "Kem dưỡng ẩm cho da khô và nhạy cảm.",
+      "category": {
+        "id": "9",
+        "name": "Sản phẩm chăm sóc da",
+        "description": "Kem dưỡng da, chống nắng và sản phẩm điều trị mụn"
+      },
+      "price": "450000",
+      "quantity": "200",
+      "date": "02/10/2022"
+    },
+    {
+      "id": "11",
+      "code": "PROD-0011",
+      "name": "Sữa rửa mặt La Roche-Posay",
+      "description": "Sữa rửa mặt dành cho da dầu mụn.",
+      "category": {
+        "id": "9",
+        "name": "Sản phẩm chăm sóc da",
+        "description": "Kem dưỡng da, chống nắng và sản phẩm điều trị mụn"
+      },
+      "price": "350000",
+      "quantity": "100",
+      "date": "05/11/2022"
+    },
+    {
+      "id": "12",
+      "code": "PROD-0012",
+      "name": "Tã em bé Pampers",
+      "description": "Tã giấy dành cho trẻ sơ sinh.",
+      "category": {
+        "id": "10",
+        "name": "Chăm sóc mẹ và bé",
+        "description": "Sữa, tã và các sản phẩm cho mẹ và bé"
+      },
+      "price": "150000",
+      "quantity": "400",
+      "date": "15/09/2022"
+    },
+    {
+      "id": "13",
+      "code": "PROD-0013",
+      "name": "Sữa bột Enfamil A+",
+      "description": "Sữa bột cho trẻ sơ sinh đến 6 tháng tuổi.",
+      "category": {
+        "id": "11",
+        "name": "Thực phẩm dinh dưỡng",
+        "description": "Sữa và các thực phẩm bổ sung dinh dưỡng"
+      },
+      "price": "680000",
+      "quantity": "200",
+      "date": "19/08/2022"
+    },
+    {
+      "id": "14",
+      "code": "PROD-0014",
+      "name": "Máy trợ thính Beurer HA50",
+      "description": "Thiết bị hỗ trợ thính lực.",
+      "category": {
+        "id": "12",
+        "name": "Thiết bị hỗ trợ sức khỏe",
+        "description": "Máy trợ thính, kính mắt và gậy chống"
+      },
+      "price": "1950000",
+      "quantity": "50",
+      "date": "25/10/2022"
+    },
+    {
+      "id": "15",
+      "code": "PROD-0015",
+      "name": "Viên uống DHC Collagen",
+      "description": "Bổ sung Collagen hỗ trợ làm đẹp da.",
+      "category": {
+        "id": "1",
+        "name": "Thực phẩm chức năng",
+        "description": "Bổ sung Vitamin"
+      },
+      "price": "320000",
+      "quantity": "150",
+      "date": "30/08/2022"
+    },
+    {
+      "id": "16",
+      "code": "PROD-0016",
+      "name": "Máy đo huyết áp Omron HEM-7121",
+      "description": "Máy đo huyết áp cổ tay tự động.",
+      "category": {
+        "id": "2",
+        "name": "Thiết bị y tế",
+        "description": "Máy đo huyết áp, nhiệt kế, ống nghe"
+      },
+      "price": "1050000",
+      "quantity": "120",
+      "date": "12/09/2022"
+    },
+    {
+      "id": "17",
+      "code": "PROD-0017",
+      "name": "Thuốc kháng sinh Cephalexin 500mg",
+      "description": "Thuốc điều trị nhiễm trùng do vi khuẩn.",
+      "category": {
+        "id": "4",
+        "name": "Thuốc kháng sinh",
+        "description": "Thuốc kháng sinh dùng để điều trị các loại nhiễm trùng"
+      },
+      "price": "65000",
+      "quantity": "350",
+      "date": "17/07/2022"
+    },
+    {
+      "id": "18",
+      "code": "PROD-0018",
+      "name": "Sữa rửa mặt Cerave",
+      "description": "Sữa rửa mặt làm sạch da nhẹ nhàng.",
+      "category": {
+        "id": "9",
+        "name": "Sản phẩm chăm sóc da",
+        "description": "Kem dưỡng da, chống nắng và sản phẩm điều trị mụn"
+      },
+      "price": "300000",
+      "quantity": "150",
+      "date": "05/10/2022"
+    },
+    {
+      "id": "19",
+      "code": "PROD-0019",
+      "name": "Kem dưỡng ẩm Neutrogena",
+      "description": "Kem dưỡng ẩm dành cho da khô.",
+      "category": {
+        "id": "9",
+        "name": "Sản phẩm chăm sóc da",
+        "description": "Kem dưỡng da, chống nắng và sản phẩm điều trị mụn"
+      },
+      "price": "400000",
+      "quantity": "200",
+      "date": "10/11/2022"
+    },
+    {
+      "id": "de6c",
+      "code": "PROD-0121",
+      "name": "samsungNote14",
+      "price": 222222,
+      "quantity": 1111,
+      "date": "07/10/2024",
+      "description": "sssss",
+      "category": {
+        "id": "8",
+        "name": "Dung dịch vệ sinh",
+        "description": "Dung dịch vệ sinh cá nhân và sát khuẩn"
+      }
+    }
+  ]
+}
